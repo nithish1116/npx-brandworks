@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+:root {
+  --ink-950: #05070d;
+  --ink-900: #0a0e1a;
+  --ink-800: #11172a;
+  --ink-700: #1a2238;
+  --line: #232c47;
+  --paper: #eef1f8;
+  --paper-dim: #b6bdd1;
+  --slate: #8b93a7;
+  --blue-400: #5b8def;
+  --blue-500: #3366ee;
+  --blue-600: #2150d8;
+  --blue-glow: #4f7fff;
+
+  --font-display: "Avenir Next", "Segoe UI Semibold", system-ui, sans-serif;
+  --font-body: -apple-system, "Segoe UI", system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-ink-950: var(--ink-950);
+  --color-ink-900: var(--ink-900);
+  --color-ink-800: var(--ink-800);
+  --color-ink-700: var(--ink-700);
+  --color-line: var(--line);
+  --color-paper: var(--paper);
+  --color-paper-dim: var(--paper-dim);
+  --color-slate: var(--slate);
+  --color-blue-400: var(--blue-400);
+  --color-blue-500: var(--blue-500);
+  --color-blue-600: var(--blue-600);
+  --color-blue-glow: var(--blue-glow);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--ink-950);
+  color: var(--paper);
+  font-family: var(--font-body), sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--blue-500);
+  color: var(--paper);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--blue-400);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+.text-gradient {
+  background: linear-gradient(115deg, var(--paper) 0%, var(--blue-400) 55%, var(--blue-600) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.noise-veil {
+  background: radial-gradient(circle at 50% 0%, rgba(79, 127, 255, 0.16), transparent 60%);
+}
