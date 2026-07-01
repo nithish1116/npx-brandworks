@@ -6,19 +6,19 @@ import TiltCard from "./TiltCard";
 
 const WORK = [
   {
-    name: "Dental Clinic",
+    name: "Personal Portfolio",
     type: "Next.js • TypeScript • Tailwind CSS",
     image:"/assets/portfolio-img1.png",
-    live: "https://your-live-demo.com",
-    github: "https://github.com/yourusername/dental-clinic",
+    live: "https://nithish-portfolio-three.vercel.app/",
+    github: "https://github.com/nithish1116/Nithish-Portfolio",
   },
-  {
-    name: "NPX BrandWorks",
-    type: "Portfolio Website",
-    image: "/projects/portfolio.jpg",
-    live: "https://yourportfolio.com",
-    github: "https://github.com/yourusername/npx-brandworks",
-  },
+  // {
+  //   name: "NPX BrandWorks",
+  //   type: "Portfolio Website",
+  //   image: "/projects/portfolio.jpg",
+  //   live: "https://yourportfolio.com",
+  //   github: "https://github.com/yourusername/npx-brandworks",
+  // },
   {
     name: "E-Commerce Store",
     type: "React • Node.js • MongoDB",
@@ -26,13 +26,13 @@ const WORK = [
     live: "https://your-ecommerce-demo.com",
     github: "https://github.com/yourusername/ecommerce",
   },
-  {
-    name: "Admin Dashboard",
-    type: "React • TypeScript • AG Grid",
-    image: "/projects/dashboard.jpg",
-    live: "https://your-dashboard-demo.com",
-    github: "https://github.com/yourusername/admin-dashboard",
-  },
+  // {
+  //   name: "Admin Dashboard",
+  //   type: "React • TypeScript • AG Grid",
+  //   image: "/projects/dashboard.jpg",
+  //   live: "https://your-dashboard-demo.com",
+  //   github: "https://github.com/yourusername/admin-dashboard",
+  // },
 ];
 
 const Portfolio = () => {
@@ -52,7 +52,7 @@ const Portfolio = () => {
               </h2>
 
               <p className="mt-4 max-w-2xl text-paper-dim">
-                ${`Here are a few projects I've designed and developed using modern
+                {`Here are a few projects I've designed and developed using modern
                 technologies such as Next.js, React, TypeScript, Tailwind CSS,
                 Node.js, and more.`}
               </p>
@@ -96,23 +96,23 @@ const Portfolio = () => {
                   </div>
 
                   {/* Buttons */}
-                  <div className="flex gap-3">
+                  <div className="flex flex-wrap gap-3">
                     <a
                       href={project.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-lg bg-blue-500 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-600"
+                      className="rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_0_0_1px_rgba(255,255,255,0.08)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(59,130,246,0.25)]"
                     >
-                      Live Demo
+                      View Live
                     </a>
 
                     <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-lg border border-white/20 px-5 py-2.5 text-sm font-medium text-paper transition hover:border-white hover:bg-white hover:text-black"
+                      className="rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm font-semibold text-paper transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-400/50 hover:bg-cyan-400/10 hover:text-cyan-200"
                     >
-                      GitHub
+                      Source
                     </a>
                   </div>
                 </div>

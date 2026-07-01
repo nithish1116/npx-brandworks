@@ -75,7 +75,7 @@ return  (
           </h2>
 
           <p className="mt-6 max-w-sm leading-relaxed text-paper-dim">
-          ${` Share a few details about your project and let's discuss how we can
+          {` Share a few details about your project and let's discuss how we can
             turn your idea into reality.`}
           </p>
 
