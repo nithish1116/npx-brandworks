@@ -5,13 +5,13 @@ import Reveal from "./Reveal";
 import TiltCard from "./TiltCard";
 
 const WORK = [
-  {
-    name: "Personal Portfolio",
-    type: "Next.js • TypeScript • Tailwind CSS",
-    image:"/assets/portfolio-img1.png",
-    live: "https://nithish-portfolio-three.vercel.app/",
-    github: "https://github.com/nithish1116/Nithish-Portfolio",
-  },
+  // {
+  //   name: "Personal Portfolio",
+  //   type: "Next.js • TypeScript • Tailwind CSS",
+  //   image:"/assets/portfolio-img1.png",
+  //   live: "https://nithish-portfolio-three.vercel.app/",
+  //   github: "https://github.com/nithish1116/Nithish-Portfolio",
+  // },
   // {
   //   name: "NPX BrandWorks",
   //   type: "Portfolio Website",
