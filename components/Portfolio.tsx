@@ -22,9 +22,9 @@ const WORK = [
   {
     name: "E-Commerce Store",
     type: "React • Node.js • MongoDB",
-    image: "/projects/e-commerce.jpg",
-    live: "https://your-ecommerce-demo.com",
-    github: "https://github.com/yourusername/ecommerce",
+    image: "/assets/lafournee-bakery.png",
+    live: "https://lafournee-bakery.vercel.app/",
+    github: "https://github.com/nithish1116/lafournee-bakery.git",
   },
   // {
   //   name: "Admin Dashboard",
