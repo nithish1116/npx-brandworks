@@ -26,13 +26,13 @@ const WORK = [
     live: "https://lafournee-bakery.vercel.app/",
     github: "https://github.com/nithish1116/lafournee-bakery.git",
   },
-  // {
-  //   name: "Admin Dashboard",
-  //   type: "React • TypeScript • AG Grid",
-  //   image: "/projects/dashboard.jpg",
-  //   live: "https://your-dashboard-demo.com",
-  //   github: "https://github.com/yourusername/admin-dashboard",
-  // },
+  {
+    name: "Music tutor",
+    type: "React • TypeScript • Tailwind CSS • lucide-icons",
+    image: "/assets/mr-rythms-img.png",
+    live: "https://mr-rythms.vercel.app",
+    github: "https://github.com/nithish1116/mr-rythms.git",
+  },
 ];
 
 const Portfolio = () => {
