@@ -74,7 +74,7 @@ export default function Hero() {
               href="#work"
               className="rounded-full border border-line px-7 py-3.5 text-sm font-medium text-paper transition-colors hover:border-blue-400/60 hover:text-blue-300"
             >
-              See our work
+              Explore our work
             </a>
           </div>
         </motion.div>
