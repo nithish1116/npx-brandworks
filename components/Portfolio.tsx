@@ -53,6 +53,23 @@ const WORK: Project[] = [
       "Focused call-to-action flow for student enquiries",
     ],
   },
+  {
+    name: "Women's fashion store",
+    type: "React • Next.js • TypeScript • Tailwind CSS",
+    image: "/assets/women-fashions-store.png",
+    live: "https://womens-fashion-store.vercel.app",
+    github: "https://github.com/nithish1116/womens-fashion-store.git",
+    description:
+      "A stylish online platform for women's fashion, featuring curated collections and a seamless shopping experience.",
+    summary:
+      "The site offers an intuitive interface for browsing and purchasing fashion items, with a focus on style and user satisfaction.",
+    stack: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    highlights: [
+      "Modern design with a focus on aesthetics and usability",
+      "Intuitive navigation for effortless browsing",
+      "Responsive layout optimized for all devices",
+    ],
+  }
 ];
 
 const Portfolio = () => {
