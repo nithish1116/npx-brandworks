@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ArrowRight, ExternalLink, Sparkles, X } from "lucide-react";
+import { ExternalLink, Sparkles, X } from "lucide-react";
 import Reveal from "./Reveal";
 import TiltCard from "./TiltCard";
 
@@ -19,6 +19,23 @@ type Project = {
 };
 
 const WORK: Project[] = [
+  {
+    name: "Fern Hollow",
+    type: "React • Next.js • TypeScript • Tailwind CSS",
+    image: "/assets/fern-hollow.png.png",
+    live: "pets-clinic-gamma.vercel.app",
+    github: "https://github.com/nithish1116/pets-clinic.git",
+    description:
+      "pets-clinic is a web application designed to streamline the management of pet care services, providing an intuitive interface for both pet owners and clinic staff.",
+    summary:
+      "pets-clinic offers features such as appointment scheduling, pet health records, and service management, enhancing the overall experience for users and improving operational efficiency for clinics.",
+    stack: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    highlights: [
+      "responsive design ensuring accessibility across devices",
+      "intuitive interface for both pet owners and clinic staff",
+      "streamlined management of pet care services",
+    ],
+  },
   {
     name: "E-Commerce Store",
     type: "React • Node.js • MongoDB",
