@@ -22,7 +22,7 @@ const WORK: Project[] = [
   {
     name: "Fern Hollow",
     type: "React • Next.js • TypeScript • Tailwind CSS",
-    image: "/assets/fern-hollow.png.png",
+    image: "/assets/fern-pet-hollow.png",
     live: "pets-clinic-gamma.vercel.app",
     github: "https://github.com/nithish1116/pets-clinic.git",
     description:
